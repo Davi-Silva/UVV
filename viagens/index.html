@@ -57,13 +57,17 @@
     </div>
 </nav>
 
-<div class="big-title">
+<div class="big-title" id="desktop">
     <h1>VIAGEM</h1>
     <img src="staticfiles/img/mouse.svg" alt="mouse">
     <video width="100%" playsinline autoplay muted loop>
         <source src="staticfiles/video/video.mp4" type="video/mp4">
     </video>
     <div class="bg"></div>
+</div>
+
+<div class="big-title" id="mobile">
+    <h1>VIAGEM</h1>
 </div>
     
 
@@ -103,7 +107,7 @@
     </div>
 </div>
 
-<div class="destinations container">
+<section class="destinations container" id="destinations-section">
     <div class="row">
         <div class="col-md-12">
             <header class="title-header">
@@ -271,8 +275,11 @@
                 <p>R$ <span>2699,00</span></p>
             </div>
         </div>
+        <div class="col-md-12">
+            <a href="#destinations-section" id="see-more">Ver mais</a>
+        </div>
     </div>
-</div>
+</section>
 
 <footer>
     <div class="container">
