@@ -1,0 +1,82 @@
+.contact-page header {
+    margin-top: 40px;
+}
+
+.contact-page header h1 {
+    text-transform: uppercase;
+    font-size: 18px;
+    font-weight: 700;
+    color: #03aa6f;
+    letter-spacing: 3px;
+}
+
+.contact-page header h2 {
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: 700;
+    color: #aeaeae;
+    letter-spacing: 1px;
+}
+
+.contact-page form {
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    margin: 10px auto 40px auto;
+}
+
+.contact-page form input,
+.contact-page form textarea,
+.contact-page form button {
+    border: 1px solid #03aa6f;
+    margin: 3px 0;
+    padding: 5px 15px;
+    color: #03aa6f;
+    border-radius: 25px;
+    transition: all .2s ease-in-out;
+}
+
+.contact-page form input:focus,
+.contact-page form textarea:focus,
+.contact-page form button:focus {
+    outline: none;
+}
+
+.contact-page form input:focus,
+.contact-page form textarea:focus {
+    background: #03aa6f;
+    color: #fff;
+}
+
+.contact-page form textarea:focus::placeholder {
+    color: #fff;
+}
+
+.contact-page form textarea {
+    resize: none;
+}
+
+.contact-page form input::placeholder,
+.contact-page form textarea::placeholder {
+    color: #aeaeae;
+}
+
+.contact-page form button {
+    background: #03aa6f;
+    color: #fff;
+}
+
+.contact-page .phone {
+    margin: 20px 0;
+}
+
+.contact-page .phone a {
+    display: table;
+    margin: 0 auto;
+    letter-spacing: 1px;
+    color: #03aa6f;
+}
+
+.contact-page .phone a i {
+    margin: 0 5px;
+}
