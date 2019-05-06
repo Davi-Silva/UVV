@@ -151,4 +151,15 @@ footer .social-media li i {
         
     }
 
+    footer h6 {
+        text-align: center;  
+        margin: 0;      
+    }
+
+    footer ul {
+        display: table;
+        margin: 10px auto 20px auto;
+
+    }
+
 }
