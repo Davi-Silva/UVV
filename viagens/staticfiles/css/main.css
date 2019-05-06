@@ -151,6 +151,10 @@ footer .social-media li i {
         
     }
 
+    .navbar #navbarSupportedContent .navbar-nav .nav-item .dropdown-menu {
+        background: rgba(0, 0, 0, 0.05);
+    }
+
     footer h6 {
         text-align: center;  
         margin: 0;      

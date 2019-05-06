@@ -60,12 +60,6 @@
     }
 }
 
-
-
-
-
-
-
 .services {
     background: #03aa6f;
     display: table;
@@ -113,6 +107,7 @@
     display: table;
     margin: 0 auto;
     max-width: 570px;
+    min-width: 100px;
     text-align: center;
     background: #03aa6f;
     padding: 30px;
@@ -503,8 +498,67 @@
 
     #mobile h1 {
         color: #03aa6f;
+        transform: translate(0%, 0%);
+        position: relative;
+        top: 0;
+        left: 0;
+        display: table;
+        margin: 0 auto;
     }
 
 
 
 }
+
+@media screen and (max-width: 1450px) {
+    .services li {
+        margin: 0 5px;
+    }
+
+    .services li a {
+        font-size: 12px;
+    }
+
+    .services li i {
+        font-size: 20px;
+    }
+
+
+}
+
+@media screen and (max-width: 768px) {
+    #search-engine #origin,
+    #search-engine #go-date {
+        border-top-left-radius: 3px;
+        border-top-right-radius: 3px; 
+        border-bottom-left-radius: 0px;
+        width: 100%;
+    }
+
+    #search-engine #destination,
+    #search-engine #return-date {
+        border-top-right-radius: 0px;
+        border-bottom-right-radius: 0px; 
+        border-bottom-left-radius:  3px;
+        border-bottom-right-radius:  3px;
+        width: 100%;
+    }
+    
+
+
+}
+
+@media screen and (max-width: 478px) {
+    
+    .services {
+        border-radius: 7px;
+    }
+
+    .services li {
+        display: block;
+        margin: 5px;
+    }
+}
+
+
+

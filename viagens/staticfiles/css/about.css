@@ -1,0 +1,27 @@
+.about-page {
+    padding: 40px 0 150px 0;
+}
+
+.about-page img {
+    display: table;
+    margin: 60px auto 20px auto;
+    height: 130px;
+    width: 130px;
+}
+
+.about-page header h1 {
+    text-transform: uppercase;
+    font-size: 18px;
+    font-weight: 700;
+    color: #03aa6f;
+    letter-spacing: 3px;
+}
+
+.about-page p {
+    font-size: 16px;
+    max-width: 700px;
+    text-align: justify;
+    color: #333;
+    display: table;
+    margin: 20px auto;
+}
