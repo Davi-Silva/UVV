@@ -8,6 +8,16 @@
     outline: none;
 }
 
+nav {
+    background: #fff;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    z-index: 999;
+    display: block;
+    width: 100%;
+    margin: 0 auto;
+}
+
 .navbar .form-inline {
     display: table;
     margin: 0 auto;
