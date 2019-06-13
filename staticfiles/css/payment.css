@@ -1,0 +1,80 @@
+.payment-page header {
+    margin-top: 40px;
+}
+
+.payment-page header h1 {
+    text-transform: uppercase;
+    font-size: 18px;
+    font-weight: 700;
+    color: #03aa6f;
+    letter-spacing: 3px;
+}
+
+.payment-page header h2 {
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: 700;
+    color: #aeaeae;
+    letter-spacing: 1px;
+}
+
+
+.payment-form {
+    max-width: 500px;
+    min-width: 200px;
+    display: table;
+    margin: 0 auto;
+}
+
+.payment-form input,
+.payment-form button,
+.payment-form select {
+    border: 1px solid #03aa6f;
+    margin: 2px 0;
+    padding: 5px 15px;
+    color: #03aa6f;
+    background: #fff;
+    border-radius: 2px;
+    width: 100%;
+    transition: all .2s ease-in-out;
+}
+
+.payment-form select {
+    height: 36px;
+}
+
+.payment-form input:focus,
+.payment-form button:focus {
+    outline: none;
+}
+
+.payment-form input:focus,
+.payment-form textarea:focus {
+    background: #03aa6f;
+    color: #fff;
+}
+
+.payment-form textarea:focus::placeholder {
+    color: #fff;
+}
+
+
+.payment-form input::placeholder,
+.payment-form textarea::placeholder {
+    color: #aeaeae;
+}
+
+.payment-form button {
+    background: #03aa6f;
+    color: #fff;
+    margin: 0 auto;
+    display: table;
+    width: 100%;
+}
+
+#more {
+    color: #03aa6f;
+    font-weight: 700;
+    letter-spacing: 2px;
+    font-size: 14px;
+}

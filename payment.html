@@ -1,225 +1,226 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Viagens</title>
-    <link rel="shortcut icon" type="image/svg" href="staticfiles/img/worldwide.png"/>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-    <link rel="stylesheet" href="staticfiles/css/contact.css">
-    <link rel="stylesheet" href="staticfiles/css/main.css">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
-    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>Viagens</title>
+	<link rel="shortcut icon" type="image/svg" href="staticfiles/img/worldwide.png" />
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+		integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+	<link rel="stylesheet" href="staticfiles/css/main.css">
+	<link rel="stylesheet" href="staticfiles/css/payment.css">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+		integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+	<link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
 </head>
+
 <body>
 
-<!-- NAVBAR -->
-<nav class="navbar navbar-expand-lg navbar-light container">
-    <a class="navbar-brand" href="./index.html"><img src="staticfiles/img/worldwide.svg" alt="Viagens logo" width="40px"
-        height="40px"></a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <i class="fas fa-bars"></i>
-    </button>
-    
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <form class="form-inline my-2 my-lg-0">
-            <div class="search">
-                <input type="search" placeholder="Procura algo específico?" aria-label="Search">
-                <button type="submit"><i class="fas fa-search"></i></button>
-            </div>
-            
-        </form>
-        <ul class="navbar-nav mr-auto">
-            <li class="nav-item active">
-                <a class="nav-link" href="./index.html">Home <span class="sr-only">(current)</span></a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="" id="current">Contato</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="./about.html">Sobre</a>
-            </li> 
-            <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                Perfil
-                </a>
-                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                    <a class="dropdown-item" href="#">Dashboard</a>
-                    <a class="dropdown-item" href="#">Pedidos</a>
-                    <div class="dropdown-divider"></div>
-                    <a class="dropdown-item" href="#">Cadastrar-se</a>
-                    <a class="dropdown-item" href="#">Login</a>
-                </div>
-            </li>
+	<!-- NAVBAR -->
+	<nav class="navbar navbar-expand-lg navbar-light container">
+		<a class="navbar-brand" href="./index.html"><img src="staticfiles/img/worldwide.svg" alt="Viagens logo"
+				width="40px" height="40px"></a>
+		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+			aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+			<i class="fas fa-bars"></i>
+		</button>
 
-        </ul>
-    </div>
-</nav>
+		<div class="collapse navbar-collapse" id="navbarSupportedContent">
+			<form class="form-inline my-2 my-lg-0">
+				<div class="search">
+					<input type="search" placeholder="Procura algo específico?" aria-label="Search">
+					<button type="submit"><i class="fas fa-search"></i></button>
+				</div>
 
-
-            
-                <h3 class="text-center">Reserva do pacote</h3>
-                
-            
-        </div>
-        <div class="col-md-10">
-               <form><br><br>
-                <h1 class="text-center">Dados Hospede 1</h1>
-          <div class="form-row">
-            <div class="col">
-                <label for="inputEmail4">Nome</label>
-              <input type="text" class="form-control" placeholder="Nome">
-            </div>
-            <div class="col">
-                <label for="inputEmail4">Sobrenome</label>
-              <input type="text" class="form-control" placeholder="Sobrenome">
-            </div>
-            <br>
- <div> 
-      <label for="inputEstado">Sexo</label>
-      <select id="inputEstado" class="form-control">
-        <option selected>Escolher...</option>
-        <option>M</option>
-        <option>F</option>
-      </select>
-    </div>
+			</form>
+			<ul class="navbar-nav mr-auto">
+				<li class="nav-item active">
+					<a class="nav-link" href="./index.html">Home</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="./contact.html">Contato</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="./about.html">Sobre</a>
+				</li>
+				<li class="nav-item dropdown">
+					<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+						data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+						Perfil
+					</a>
+					<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+						<a class="dropdown-item" href="#">Dashboard</a>
+						<a class="dropdown-item" href="#">Pedidos</a>
+						<div class="dropdown-divider"></div>
+						<a class="dropdown-item" href="#">Cadastrar-se</a>
+						<a class="dropdown-item" href="#">Login</a>
+					</div>
+				</li>
+			</ul>
+		</div>
+	</nav>
 
 
-          </div>
-        </form>
-        </div><br>
-        <div class="col-md-10">
-          <form>
-              <div class="form-row">
-                <div class="form-group col-md-6">
-                  <label for="inputEmail4">Email</label>
-                  <input type="email" class="form-control" id="inputEmail4" placeholder="Email">
-                </div>
-                <div class="form-group col-md-6">
-                  <label for="inputPassword4">Senha</label>
-                  <input type="password" class="form-control" id="inputPassword4" placeholder="Senha">
-                </div>
-              </div>
-              <div class="form-group">
-                <label for="inputAddress">Endereço</label>
-                <input type="text" class="form-control" id="inputAddress" placeholder="Rua dos Bobos, nº 0">
-              </div>
-              <div class="form-group">
-                <label for="inputAddress2">Endereço 2</label>
-                <input type="text" class="form-control" id="inputAddress2" placeholder="Apartamento, hotel, casa, etc.">
-              </div>
-              <div class="form-row">
-                <div class="form-group col-md-6">
-                  <label for="inputCity">Cidade</label>
-                  <input type="text" class="form-control" id="inputCity">
-                </div>
-                <div class="form-group col-md-4">
-                  <label for="inputEstado">Estado</label>
-                  <select id="inputEstado" class="form-control">
-                    <option selected>Escolher...</option>
-                    <option value="AC">Acre</option>
-                    <option value="AL">Alagoas</option>
-                    <option value="AP">Amapá</option>
-                    <option value="AM">Amazonas</option>
-                    <option value="BA">Bahia</option>
-                    <option value="CE">Ceará</option>
-                    <option value="DF">Distrito Federal</option>
-                    <option value="ES">Espírito Santo</option>
-                    <option value="GO">Goiás</option>
-                    <option value="MA">Maranhão</option>
-                    <option value="MT">Mato Grosso</option>
-                    <option value="MS">Mato Grosso do Sul</option>
-                    <option value="MG">Minas Gerais</option>
-                    <option value="PA">Pará</option>
-                    <option value="PB">Paraíba</option>
-                    <option value="PR">Paraná</option>
-                    <option value="PE">Pernambuco</option>
-                    <option value="PI">Piauí</option>
-                    <option value="RJ">Rio de Janeiro</option>
-                    <option value="RN">Rio Grande do Norte</option>
-                    <option value="RS">Rio Grande do Sul</option>
-                    <option value="RO">Rondônia</option>
-                    <option value="RR">Roraima</option>
-                    <option value="SC">Santa Catarina</option>
-                    <option value="SP">São Paulo</option>
-                    <option value="SE">Sergipe</option>
-                    <option value="TO">Tocantins</option>
-                    <option>...</option>
-                  </select>
-                </div>
-                <div class="form-group col-md-2">
-                  <label for="inputCEP">CEP</label>
-                  <input type="text" class="form-control" id="inputCEP">
-                </div>
-              </div>
-              <div class="form-group">       
-                </div>
-              </div>
-              <button type="submit" class="btn btn-primary">Entrar</button>
-            </form><br><br>
-        </div>
-    </div>
-</div>
+	<!-- PAYMENT FORM -->
+
+	<div class="container payment-page">
+		<div class="row">
+			<div class="col-12">
+				<header>
+					<h1 class="text-center">Reserva do pacote</h3>
+				</header>
+			</div>
+			<div class="col-12">
+				<form class="payment-form">
+					<header>
+						<h2 class="text-center">Dados Hospede 1</h4>
+					</header>
+					<div class="form-row">
+						<div class="col-lg-4 col-md-4 col-sm-4 col-6">
+							<input id="name" type="text" placeholder="Nome" required>
+						</div>
+						<div class="col-lg-4 col-md-4 col-sm-4 col-6">
+							<input type="text" placeholder="Sobrenome" required>
+						</div>
+						<div class="col-lg-4 col-md-4 col-sm-4 col-12">
+							<select id="inputEstado" required>
+								<option selected>Sexo</option>
+								<option>M</option>
+								<option>F</option>
+							</select>
+						</div>
+						<div class="col-12">
+							<input id="address" type="text" id="inputAddress" placeholder="Endereço" required>
+						</div>
+						<div class="col-12">
+							<input type="text" id="address2" placeholder="Endereço 2" required>
+						</div>
+						<div class="col-lg-3 col-md-3 col-sm-3 col-6">
+							<input type="text" id="inputCEP" placeholder="CEP" required>
+						</div>
+						<div class="col-lg-6 col-md-6 col-sm-6 col-6">
+							<input type="text" id="inputCity" placeholder="Cidade" required>
+						</div>
+						<div class="col-lg-3 col-md-3 col-sm-3 col-12">
+							<select id="inputEstado" required>
+								<option selected>Estado</option>
+								<option value="AC">Acre</option>
+								<option value="AL">Alagoas</option>
+								<option value="AP">Amapá</option>
+								<option value="AM">Amazonas</option>
+								<option value="BA">Bahia</option>
+								<option value="CE">Ceará</option>
+								<option value="DF">Distrito Federal</option>
+								<option value="ES">Espírito Santo</option>
+								<option value="GO">Goiás</option>
+								<option value="MA">Maranhão</option>
+								<option value="MT">Mato Grosso</option>
+								<option value="MS">Mato Grosso do Sul</option>
+								<option value="MG">Minas Gerais</option>
+								<option value="PA">Pará</option>
+								<option value="PB">Paraíba</option>
+								<option value="PR">Paraná</option>
+								<option value="PE">Pernambuco</option>
+								<option value="PI">Piauí</option>
+								<option value="RJ">Rio de Janeiro</option>
+								<option value="RN">Rio Grande do Norte</option>
+								<option value="RS">Rio Grande do Sul</option>
+								<option value="RO">Rondônia</option>
+								<option value="RR">Roraima</option>
+								<option value="SC">Santa Catarina</option>
+								<option value="SP">São Paulo</option>
+								<option value="SE">Sergipe</option>
+								<option value="TO">Tocantins</option>
+							</select>
+						</div>
+					</div>
+					<button type="submit" id="submit">Reservar</button>
+					<a id="more" href="#">+ Hospedes</a>
+			</div>
+			</form>
+		</div>
+	</div>
+	</div>
 
 
-<footer>
-    <div class="container">
-        <div class="row">
-            <div class="col-md-4">
-                <h6>VIAGEM</h6>
-                <ul class="website">
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">Contato</a></li>
-                    <li><a href="#">Pacotes</a></li>
-                    <li><a href="#">Sobre</a></li>
-                </ul>
-            </div>
-            <div class="col-md-4">
-                <h6>Informações</h6>
-                <ul class="info">
-                    <li><a href="#">Contato</a></li>
-                </ul>
-            </div>
-            <div class="col-md-4">
-                <h6>Rede Sociais</h6>
-                <ul class="social-media">
-                    <li><a href="https://www.facebook.com/" target="_blank"><i class="fab fa-facebook-f"></i></a></li>
-                    <li><a href="https://www.instagram.com/" target="_blank"><i class="fab fa-instagram"></i></a></li>
-                    <li><a href="https://twitter.com/" target="_blank"><i class="fab fa-twitter"></i></a></li>
-                </ul>
-            </div>
-            <div class="col-md-8">
-                <h6>Formas de Pagamento</h6>
-                <ul class="accepted-payment-method">
-                    <li><img src="staticfiles/img/visa.svg" alt="Visa" width="60px" height="20px"></li>
-                    <li><img src="staticfiles/img/mc.svg" alt="Visa" width="100px" height="35px"></li>
-                    <li><img src="staticfiles/img/american-express.svg" alt="Visa" width="35px" height="35px"></li>
-                </ul>
-            </div>
-            <div class="col-md-4">
-                <h6>Certificados</h6>
-                <ul class="certificates">
-                    <li><img src="staticfiles/img/norton.svg" alt="Visa" width="130px" height="80px"></li>
-                </ul>
-            </div>
-            <div class="col-md-12">
-                <div class="designed-by">
-                    <p class="text-center">Desenvolvido por <a href="https://github.com/Davi-Silva" target="_blank">Davi Silva</a></p>
-                </div>
-            </div>
-        </div>
-    </div>
-</footer>
+	</div>
+	<br>
+	<div class="col-md-10">
+		<form>
+
+		</form><br><br>
+	</div>
+	</div>
+	</div>
+
+
+	<footer>
+		<div class="container">
+			<div class="row">
+				<div class="col-md-4">
+					<h6>VIAGEM</h6>
+					<ul class="website">
+						<li><a href="#">Home</a></li>
+						<li><a href="#">Contato</a></li>
+						<li><a href="#">Pacotes</a></li>
+						<li><a href="#">Sobre</a></li>
+					</ul>
+				</div>
+				<div class="col-md-4">
+					<h6>Informações</h6>
+					<ul class="info">
+						<li><a href="#">Contato</a></li>
+					</ul>
+				</div>
+				<div class="col-md-4">
+					<h6>Rede Sociais</h6>
+					<ul class="social-media">
+						<li><a href="https://www.facebook.com/" target="_blank"><i class="fab fa-facebook-f"></i></a>
+						</li>
+						<li><a href="https://www.instagram.com/" target="_blank"><i class="fab fa-instagram"></i></a>
+						</li>
+						<li><a href="https://twitter.com/" target="_blank"><i class="fab fa-twitter"></i></a></li>
+					</ul>
+				</div>
+				<div class="col-md-8">
+					<h6>Formas de Pagamento</h6>
+					<ul class="accepted-payment-method">
+						<li><img src="staticfiles/img/visa.svg" alt="Visa" width="60px" height="20px"></li>
+						<li><img src="staticfiles/img/mc.svg" alt="Visa" width="100px" height="35px"></li>
+						<li><img src="staticfiles/img/american-express.svg" alt="Visa" width="35px" height="35px"></li>
+					</ul>
+				</div>
+				<div class="col-md-4">
+					<h6>Certificados</h6>
+					<ul class="certificates">
+						<li><img src="staticfiles/img/norton.svg" alt="Visa" width="130px" height="80px"></li>
+					</ul>
+				</div>
+				<div class="col-md-12">
+					<div class="designed-by">
+						<p class="text-center">Desenvolvido por <a href="https://github.com/Davi-Silva"
+								target="_blank">Davi
+								Silva</a></p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</footer>
 
 
 
 
-<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+		integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+		crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+		integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+		crossorigin="anonymous"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+		integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+		crossorigin="anonymous"></script>
 </body>
+
 </html>
-
-
-
